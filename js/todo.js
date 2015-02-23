@@ -136,7 +136,7 @@
                 window.location.hash = "#home"
                 alert("Welcome home, "+user.get("username"));
             })
-            result.fail(function(user, error){
+            result.fail(function(error){
                 alert(error.message);
             })
         }
