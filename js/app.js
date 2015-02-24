@@ -4,6 +4,8 @@ window.onload = app;
 function app(){
     "use strict";
 
+    loader.textInjection = true;
+
     // load some scripts (uses promises :D)
     loader.load(
         //css
